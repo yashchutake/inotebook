@@ -6,7 +6,7 @@ var cors = require('cors')  //Express package for api call on local host
 connectToMongo();
 const app = express()
 const port =5000  // to give spacre for front end
-const path = require('/');
+const path = require('/login');
 
 
 //middleware
